@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(167, 167, 167);
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.rpsGame div {
+    padding-right: 250px;
+    padding-left: 250px;
+    display: grid;
+}
+
+
+div button {
+    background-color: rgb(167, 167, 167);
+    width: 200px;
+    height: 200px;
+    border: none;
+}
+
+div img {
+    width: 200px;
+    height: 200px;
+}
+
+.rpsGame {
+    padding-top: 50px;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+.winner {
+    font-size: 200%;
+}
+
+.computersChoice {
+    background-color: greenyellow;
+    border: 2px solid black;
+    border-radius: 15px;
+}
